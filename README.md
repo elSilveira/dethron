@@ -1,5 +1,7 @@
 # Dethron
 
+[![tests](https://github.com/elSilveira/dethron/actions/workflows/ci.yml/badge.svg)](https://github.com/elSilveira/dethron/actions/workflows/ci.yml)
+
 Verifiable message delivery over [Reticulum](https://reticulum.network/) and LXMF.
 
 **Guaranteed** delivery is impossible over intermittent contact: if the recipient never
@@ -21,8 +23,9 @@ recipient's receipt. That is the point: nothing here asks you to trust an interm
 pip install dethron
 ```
 
-Python 3.10 or newer. Reticulum and LXMF come with it. Exercised on Windows 11 with
-Python 3.10 and on Ubuntu 24.04 with Python 3.12, end-to-end test included.
+Python 3.10 or newer. Reticulum and LXMF come with it. Every push runs the suite on
+Linux and Windows across Python 3.10, 3.11 and 3.12, and runs the end-to-end delivery
+test on both systems — on machines the author does not control.
 
 ## Try it
 
