@@ -1,0 +1,47 @@
+{
+  "bench": "C:\\dethron\\bench3",
+  "commit": "b7870fbe9b2395940492042b65335a7f13ccde4f Stop a local HTTP test from failing on a busy machine",
+  "passed": true,
+  "machines": [
+    {
+      "machine": "alpha",
+      "steps": 8,
+      "control_unchanged": true,
+      "opened_wall": 1789773221.741604,
+      "late_seconds": 0.003,
+      "max_drift": 0.016
+    },
+    {
+      "machine": "beta",
+      "steps": 5,
+      "control_unchanged": true,
+      "opened_wall": 1789773221.7490022,
+      "late_seconds": 0.011,
+      "max_drift": 0.0
+    }
+  ],
+  "rendezvous": {
+    "skew_seconds": 0.007,
+    "max_late_seconds": 0.011
+  },
+  "delivery": {
+    "completed": true,
+    "size": 16384,
+    "sha256": "9e390712447e77dedddd75386db336f7a07fb8b1cc210eff3fff9c172b15b4e6",
+    "packets": 1
+  },
+  "distinct_machines": {
+    "relay_host": "192.168.68.62",
+    "loopback": false,
+    "reported_hosts": {},
+    "evidenced": false,
+    "reason": "the agents did not record their host identity, so distinctness rests on the operator, not on this evidence"
+  },
+  "medium": {
+    "declared": "ip",
+    "contacts": [
+      "192.168.68.62:45810"
+    ]
+  },
+  "verdict": "v3a_pass_without_machine_evidence"
+}

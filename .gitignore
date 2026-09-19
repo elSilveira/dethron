@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv*/
+venv*/
+.pytest_cache/
+
+# Node directories created by the CLI: identities, keys and message stores
+*/identity
+*/rns/
+*/lxmf/
+*/custody/
+*/receipts/
+*/packets/
+*.lxmf
+events.jsonl
+output.bin
+completion.json
+recipients.json
+assembly.db
+
+# Editor and OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# The published evidence is the point of this repository; no rule above may swallow it.
+!evidence/**

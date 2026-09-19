@@ -1,0 +1,241 @@
+{
+  "scenarios": {
+    "delivered": {
+      "scenario": "delivered",
+      "completed": true,
+      "handoffs": {
+        "A": "ec71bde68c2775f18f96afd48237f9b83e6ce4e88fe2bc00c0db4af6f7ac90ca",
+        "B": "36dda628e8a890c8ce8c494fb54f682cb6c845871ae444692da8af14fe3aaa60",
+        "C": "8d92af4f0a3e910c8c452e02d1aa72b1f347fb429324987929e2716039149f88"
+      },
+      "custody": {
+        "A": "custody",
+        "B": "custody",
+        "C": "custody"
+      },
+      "relay_stored": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "fetches": 3,
+      "seconds": 55.312000000005355,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "delivered",
+        "entry": {
+          "A": {
+            "transient_id": "ec71bde68c2775f18f96afd48237f9b83e6ce4e88fe2bc00c0db4af6f7ac90ca",
+            "stored_size": 15664,
+            "received": 1789648780
+          },
+          "B": {
+            "transient_id": "36dda628e8a890c8ce8c494fb54f682cb6c845871ae444692da8af14fe3aaa60",
+            "stored_size": 15664,
+            "received": 1789648792
+          },
+          "C": {
+            "transient_id": "8d92af4f0a3e910c8c452e02d1aa72b1f347fb429324987929e2716039149f88",
+            "stored_size": 15664,
+            "received": 1789648800
+          }
+        },
+        "missing_entry": [],
+        "exit": {
+          "completed": true,
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "sha256": "1c79acaa96806766602fa8d5d4abc3ac043cdca22cae5829c11fe23f0228f92a"
+        },
+        "completed": true,
+        "pendency": {
+          "awaiting_contact": [],
+          "attested_not_delivered": []
+        }
+      }
+    },
+    "pending": {
+      "scenario": "pending",
+      "completed": false,
+      "handoffs": {
+        "A": "b69c01042faa10b0e7a22996730e5720445daaff48bb5137da68dda5aeafd315",
+        "B": "70aa2d6b7495f3ff5e9eb2bab409d0c6ec8fc1139afa7aec6f0ee1d22f9fd1f0",
+        "C": "6276667898ef933522ee3ea25c22b3cc6615e8973a29e9e24115a460e856ce48"
+      },
+      "custody": {
+        "A": "custody",
+        "B": "custody",
+        "C": "custody"
+      },
+      "relay_stored": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      },
+      "fetches": 0,
+      "seconds": 43.25,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "pending",
+        "entry": {
+          "A": {
+            "transient_id": "b69c01042faa10b0e7a22996730e5720445daaff48bb5137da68dda5aeafd315",
+            "stored_size": 15664,
+            "received": 1789648835
+          },
+          "B": {
+            "transient_id": "70aa2d6b7495f3ff5e9eb2bab409d0c6ec8fc1139afa7aec6f0ee1d22f9fd1f0",
+            "stored_size": 15664,
+            "received": 1789648843
+          },
+          "C": {
+            "transient_id": "6276667898ef933522ee3ea25c22b3cc6615e8973a29e9e24115a460e856ce48",
+            "stored_size": 15664,
+            "received": 1789648851
+          }
+        },
+        "missing_entry": [],
+        "exit": {
+          "completed": false,
+          "parts": []
+        },
+        "completed": false,
+        "pendency": {
+          "awaiting_contact": [
+            "A",
+            "B",
+            "C"
+          ],
+          "attested_not_delivered": []
+        }
+      }
+    },
+    "discarded": {
+      "scenario": "discarded",
+      "completed": false,
+      "handoffs": {
+        "A": "f1928e53d5678069d9c8b0ff35de871426de3f36bb8afe7fefefbe292f90662b",
+        "B": "064cf864c72735fc0a2f9caa62dd1fba7dabfe82d2ce3954b59aaf38515e38fa",
+        "C": "f30e9de39008e43bb4522266d73b0bdb7311a1a58c154bc490d614cd6abb1436"
+      },
+      "custody": {
+        "A": "custody",
+        "B": "custody",
+        "C": "custody"
+      },
+      "relay_stored": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "fetches": 3,
+      "seconds": 51.562000000005355,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "discarded",
+        "entry": {
+          "A": {
+            "transient_id": "f1928e53d5678069d9c8b0ff35de871426de3f36bb8afe7fefefbe292f90662b",
+            "stored_size": 15664,
+            "received": 1789648879
+          },
+          "B": {
+            "transient_id": "064cf864c72735fc0a2f9caa62dd1fba7dabfe82d2ce3954b59aaf38515e38fa",
+            "stored_size": 15664,
+            "received": 1789648887
+          },
+          "C": {
+            "transient_id": "f30e9de39008e43bb4522266d73b0bdb7311a1a58c154bc490d614cd6abb1436",
+            "stored_size": 15664,
+            "received": 1789648895
+          }
+        },
+        "missing_entry": [],
+        "exit": {
+          "completed": false,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        "completed": false,
+        "pendency": {
+          "awaiting_contact": [],
+          "attested_not_delivered": [
+            "B"
+          ]
+        }
+      }
+    },
+    "fake": {
+      "scenario": "fake",
+      "completed": true,
+      "handoffs": {
+        "A": "9c6bfd340474f62fcb3f5db155a2c3373c40b0b955ebdad488556ce6e5623ba2",
+        "B": "2921353f3679c0cfec52295a09d5c0860a73096eb441cd2156bb73aa3b06d453",
+        "C": "9943b888a51c9177ca7238d60fcfaaa7bbd77e3bc44110c9abf9223e83e88a75"
+      },
+      "custody": {
+        "A": "custody",
+        "B": "custody",
+        "C": "custody",
+        "fake": "custody_refusal"
+      },
+      "relay_stored": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "fetches": 3,
+      "seconds": 61.48400000001129,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "fake",
+        "entry": {
+          "A": {
+            "transient_id": "9c6bfd340474f62fcb3f5db155a2c3373c40b0b955ebdad488556ce6e5623ba2",
+            "stored_size": 15664,
+            "received": 1789648930
+          },
+          "B": {
+            "transient_id": "2921353f3679c0cfec52295a09d5c0860a73096eb441cd2156bb73aa3b06d453",
+            "stored_size": 15664,
+            "received": 1789648937
+          },
+          "C": {
+            "transient_id": "9943b888a51c9177ca7238d60fcfaaa7bbd77e3bc44110c9abf9223e83e88a75",
+            "stored_size": 15664,
+            "received": 1789648942
+          }
+        },
+        "missing_entry": [],
+        "exit": {
+          "completed": true,
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "sha256": "908762cfc3c0a1302b370aa25d036a3de22203e7a755e354095bf1553ad8e30a"
+        },
+        "completed": true,
+        "pendency": {
+          "awaiting_contact": [],
+          "attested_not_delivered": []
+        },
+        "refusal": {
+          "transient_id": "866296ce6b1ac98196fbed9335430b570b0e30b1acb928d53f101072e42f20e4",
+          "reason": "transient id not in store"
+        }
+      }
+    }
+  },
+  "verdict": "v1_custody_scoped_pass"
+}

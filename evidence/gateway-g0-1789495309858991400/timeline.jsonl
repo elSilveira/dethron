@@ -1,0 +1,34 @@
+{"event": "start", "time": 1789495310.1346228, "node": "D", "generation": 0, "pid": 14292, "contacts": []}
+{"event": "killed", "time": 1789495310.1396234, "node": "D", "pid": 14292, "exit_code": 23}
+{"event": "start", "time": 1789495310.395693, "node": "A", "generation": 0, "pid": 25664, "contacts": []}
+{"event": "start", "time": 1789495310.662287, "node": "B", "generation": 0, "pid": 1692, "contacts": []}
+{"event": "start", "time": 1789495310.9211943, "node": "C", "generation": 0, "pid": 30340, "contacts": []}
+{"event": "start", "time": 1789495311.181498, "node": "O", "generation": 0, "pid": 36732, "contacts": ["A", "B", "C"]}
+{"event": "handoff_only", "time": 1789495323.214814, "id": "message-A", "at": 1789495323.214814}
+{"event": "handoff_only", "time": 1789495331.2480948, "id": "message-B", "at": 1789495331.2475936}
+{"event": "handoff_only", "time": 1789495339.414257, "id": "message-C", "at": 1789495339.414257}
+{"event": "handoff_only", "time": 1789495355.2969656, "id": "absent", "at": 1789495355.2969656}
+{"event": "store_before_crash", "time": 1789495355.802851, "node": "A", "stored": 2}
+{"event": "store_before_crash", "time": 1789495355.8038526, "node": "B", "stored": 1}
+{"event": "store_before_crash", "time": 1789495355.804352, "node": "C", "stored": 1}
+{"event": "killed", "time": 1789495355.8098578, "node": "O", "pid": 36732, "exit_code": 23}
+{"event": "killed", "time": 1789495355.8153572, "node": "A", "pid": 25664, "exit_code": 23}
+{"event": "start", "time": 1789495356.0845523, "node": "A", "generation": 1, "pid": 29540, "contacts": []}
+{"event": "store_after_crash", "time": 1789495356.0850525, "node": "A", "stored": 2}
+{"event": "killed", "time": 1789495356.0900536, "node": "B", "pid": 1692, "exit_code": 23}
+{"event": "start", "time": 1789495356.3523884, "node": "B", "generation": 1, "pid": 20548, "contacts": []}
+{"event": "store_after_crash", "time": 1789495356.3528943, "node": "B", "stored": 1}
+{"event": "killed", "time": 1789495356.3579025, "node": "C", "pid": 30340, "exit_code": 23}
+{"event": "start", "time": 1789495356.6324325, "node": "C", "generation": 1, "pid": 33628, "contacts": []}
+{"event": "store_after_crash", "time": 1789495356.6333044, "node": "C", "stored": 1}
+{"event": "distribution_complete", "time": 1789495356.6333044, "deadline_seconds": 120}
+{"event": "start", "time": 1789495356.9120543, "node": "D", "generation": 1, "pid": 27120, "contacts": ["A"]}
+{"event": "verified_receipt", "time": 1789495361.0487585, "id": "message-A", "size": 1024, "sha256": "51fbd2361df6f5a5b34ec142215cd7ed5ed0d65ed57556813fecfcd7eda5ed3a", "signature": "valid", "seconds_after_distribution": 4.420999999972992}
+{"event": "killed", "time": 1789495361.0537581, "node": "D", "pid": 27120, "exit_code": 23}
+{"event": "start", "time": 1789495361.3080387, "node": "D", "generation": 2, "pid": 36876, "contacts": ["B"]}
+{"event": "verified_receipt", "time": 1789495365.4625425, "id": "message-B", "size": 65536, "sha256": "aee5959fd37cfc6cc4554fc593e78f0360c70ffdc6f1293450d2ca703b6559a5", "signature": "valid", "seconds_after_distribution": 8.827999999979511}
+{"event": "killed", "time": 1789495365.468549, "node": "D", "pid": 36876, "exit_code": 23}
+{"event": "start", "time": 1789495365.745299, "node": "D", "generation": 3, "pid": 17256, "contacts": ["C"]}
+{"event": "verified_receipt", "time": 1789495370.0191424, "id": "message-C", "size": 1048576, "sha256": "0e1453cad0aea035fc478b55e9e4e63794922a0b83cee64daf86188b851db5b6", "signature": "valid", "seconds_after_distribution": 13.39000000001397}
+{"event": "killed", "time": 1789495370.0241437, "node": "D", "pid": 17256, "exit_code": 23}
+{"event": "negative_observation_complete", "time": 1789495476.6401079, "seconds": 120.0, "absent_destination_started": false, "relay_A_stored": 1}

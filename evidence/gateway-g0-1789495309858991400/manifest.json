@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "version": 1,
+    "reference": {
+      "rns": "1.5.4",
+      "lxmf": "1.1.1"
+    },
+    "sizes": [
+      1024,
+      65536,
+      1048576
+    ],
+    "deadline_seconds": 120,
+    "propagation_limit_kb": 2048,
+    "delivery_limit_kb": 2048,
+    "autopeer": false,
+    "transport": "loopback TCP",
+    "unit": "whole LXMF message"
+  },
+  "ports": {
+    "O": 53087,
+    "A": 53088,
+    "B": 53089,
+    "C": 53090,
+    "D": 53091
+  },
+  "messages": [
+    {
+      "id": "message-A",
+      "size": 1024,
+      "relay": "A",
+      "destination": "59bfa7758a455026f0161dcfd31ae197",
+      "source": "0d6088e56efbc0b3a315c49b38a5179f",
+      "public_key": "4b5c5a2e4d09538528aabb70df65f6b66a8486dd70b7e25947475752330552206a20d9a39322575b37cae9b40b43ac572f9fc4e852f01aea18d287043a2dced9"
+    },
+    {
+      "id": "message-B",
+      "size": 65536,
+      "relay": "B",
+      "destination": "59bfa7758a455026f0161dcfd31ae197",
+      "source": "0d6088e56efbc0b3a315c49b38a5179f",
+      "public_key": "4b5c5a2e4d09538528aabb70df65f6b66a8486dd70b7e25947475752330552206a20d9a39322575b37cae9b40b43ac572f9fc4e852f01aea18d287043a2dced9"
+    },
+    {
+      "id": "message-C",
+      "size": 1048576,
+      "relay": "C",
+      "destination": "59bfa7758a455026f0161dcfd31ae197",
+      "source": "0d6088e56efbc0b3a315c49b38a5179f",
+      "public_key": "4b5c5a2e4d09538528aabb70df65f6b66a8486dd70b7e25947475752330552206a20d9a39322575b37cae9b40b43ac572f9fc4e852f01aea18d287043a2dced9"
+    }
+  ],
+  "negative": {
+    "id": "absent",
+    "size": 1024,
+    "relay": "A",
+    "destination": "f618aa67984b99303b15b6e9f539d3d5",
+    "source": "0d6088e56efbc0b3a315c49b38a5179f",
+    "public_key": "4b5c5a2e4d09538528aabb70df65f6b66a8486dd70b7e25947475752330552206a20d9a39322575b37cae9b40b43ac572f9fc4e852f01aea18d287043a2dced9"
+  },
+  "recipient": {
+    "event": "ready",
+    "time": 1789495310.1341262,
+    "public_key": "48aa01f79b74ce45948f0283dc8aa511a5ae28ede02a14936d1a54f21dc78a338ba207c7d91047ec0879faf3a767f6ac6a98b13050366d56463e4dd21f2deb67",
+    "destination": "59bfa7758a455026f0161dcfd31ae197",
+    "propagation": "332edc3019c449d093fc9456810d2f6e"
+  },
+  "origin": {
+    "event": "ready",
+    "time": 1789495311.1809993,
+    "public_key": "4b5c5a2e4d09538528aabb70df65f6b66a8486dd70b7e25947475752330552206a20d9a39322575b37cae9b40b43ac572f9fc4e852f01aea18d287043a2dced9",
+    "destination": "0d6088e56efbc0b3a315c49b38a5179f",
+    "propagation": "26c15bff07976a56b0f618a460849f34"
+  }
+}

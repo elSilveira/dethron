@@ -1,0 +1,9 @@
+Dethron
+Copyright 2026 Dethron contributors
+
+This product includes software developed as part of the Dethron project.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file.
+
+Dethron builds on Reticulum (RNS) and LXMF, which are separate works under their
+own licenses. They are imported as dependencies, not derived from.

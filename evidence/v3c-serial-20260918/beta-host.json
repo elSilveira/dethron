@@ -1,0 +1,10 @@
+{
+  "hostname": "DESKTOP-CURVS8Q",
+  "node": "DESKTOP-CURVS8Q",
+  "system": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "addresses": [
+    "192.168.68.50",
+    "fe80::ca89:7be1:b624:7b44"
+  ]
+}

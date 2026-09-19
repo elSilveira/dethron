@@ -1,0 +1,53 @@
+{
+  "verdict": "meets_scoped_requirement",
+  "receipts": [
+    {
+      "id": "message-A",
+      "size": 1024,
+      "sha256": "51fbd2361df6f5a5b34ec142215cd7ed5ed0d65ed57556813fecfcd7eda5ed3a",
+      "signature": "valid",
+      "seconds_after_distribution": 4.420999999972992
+    },
+    {
+      "id": "message-B",
+      "size": 65536,
+      "sha256": "aee5959fd37cfc6cc4554fc593e78f0360c70ffdc6f1293450d2ca703b6559a5",
+      "signature": "valid",
+      "seconds_after_distribution": 8.827999999979511
+    },
+    {
+      "id": "message-C",
+      "size": 1048576,
+      "sha256": "0e1453cad0aea035fc478b55e9e4e63794922a0b83cee64daf86188b851db5b6",
+      "signature": "valid",
+      "seconds_after_distribution": 13.39000000001397
+    }
+  ],
+  "negative": "no absent endpoint was started; message remained stored",
+  "scope": "single-host TCP; whole messages; no G2 or physical mesh evidence",
+  "archive_audit": {
+    "receipts": [
+      {
+        "id": "message-A",
+        "size": 1024,
+        "sha256": "51fbd2361df6f5a5b34ec142215cd7ed5ed0d65ed57556813fecfcd7eda5ed3a",
+        "signature": "valid"
+      },
+      {
+        "id": "message-B",
+        "size": 65536,
+        "sha256": "aee5959fd37cfc6cc4554fc593e78f0360c70ffdc6f1293450d2ca703b6559a5",
+        "signature": "valid"
+      },
+      {
+        "id": "message-C",
+        "size": 1048576,
+        "sha256": "0e1453cad0aea035fc478b55e9e4e63794922a0b83cee64daf86188b851db5b6",
+        "signature": "valid"
+      }
+    ],
+    "retained_absent_message": "8315e06010cda968a160998c94cdaf761c28e82d3a8ba3c074a66d6e22bb324d_1789495355.3249772_17",
+    "audit": "passed",
+    "trust": "local harness and its event timestamps"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "scenarios": {
+    "returned": {
+      "scenario": "returned",
+      "completed": true,
+      "handoffs": {
+        "A": "316021510181dc4b8f701220ea5d469d445d78a3d2f5d0965cc9a962d2202a3c",
+        "B": "437215a66725fd3c76ae481206c52834eefeb8b028613b0783fcd9ece487f698",
+        "C": "b6dd7e2041de0237d983e8ece52a8f87fa3a5962a59b6f36a012d374fd451675"
+      },
+      "receipt_copies": {
+        "A": "b9de9b8fb0bde4273b480907d27db200e3b486b2bd0fbf92e9ed799ad4b73afc",
+        "B": "2e4365dfc0b2e4158fae269617c316528203ef7ee235debd0e80365d1ec9d544",
+        "C": "add565ac05595df606a740ba890f5446f56e57a882968e0da88e454435966cc7"
+      },
+      "proof_via": "C",
+      "visits": [
+        [
+          "C",
+          true
+        ]
+      ],
+      "seconds": 79.48399999999674,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "returned",
+        "entry": 3,
+        "exit_local": {
+          "completed": true,
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "sha256": "59ed669929487f078b5dd0001d94376eca562117d4f017200537a7cf2b041b25"
+        },
+        "completed": true,
+        "sessions": {
+          "origin_sessions": 2,
+          "recipient_sessions": 1
+        },
+        "receipt_at_origin": {
+          "id": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "digest": "59ed669929487f078b5dd0001d94376eca562117d4f017200537a7cf2b041b25",
+          "size": 24576
+        },
+        "route": {
+          "proof_via": "C",
+          "missing_before": [],
+          "visits": 1
+        }
+      }
+    },
+    "proof_pending": {
+      "scenario": "proof_pending",
+      "completed": true,
+      "handoffs": {
+        "A": "f2f56f5d64fcb23f23d5fa10d9ad3d8c97e8043ddfb21de5a2a1a5bf57ce4177",
+        "B": "c05eba9bad8d6dcf6230be47be50aa68d2f2466ffbf8468c5486d2fa8ab99a8c",
+        "C": "73a92a5636af91d265dba5eeb4dc305ec26a602bd1a994d4f132e4d6f90ea343"
+      },
+      "receipt_copies": {
+        "A": "e3d7c7b3751f6c79bd81c2450e6d18e49f060c156d9d5ac1cf93afe9ba624534",
+        "B": "cad3d958bfdda257a2578cafe3f7e1492cb58c297d1a8ba7bcc7e5f496b8e13f",
+        "C": "59ba945a51a1809ad1921d60ec8332d21d82471375a4e65dc7fbcdc0f54d419d"
+      },
+      "proof_via": "A",
+      "visits": [
+        [
+          "C",
+          false
+        ],
+        [
+          "A",
+          true
+        ]
+      ],
+      "seconds": 112.76599999998871,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "proof_pending",
+        "entry": 3,
+        "exit_local": {
+          "completed": true,
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "sha256": "b0636f639b7bc55a1a578a37550878e7148190f7b3c322f31a13d4a521840ab0"
+        },
+        "completed": true,
+        "sessions": {
+          "origin_sessions": 2,
+          "recipient_sessions": 1
+        },
+        "receipt_at_origin": {
+          "id": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "digest": "b0636f639b7bc55a1a578a37550878e7148190f7b3c322f31a13d4a521840ab0",
+          "size": 24576
+        },
+        "route": {
+          "proof_via": "A",
+          "missing_before": [
+            "C"
+          ],
+          "visits": 2
+        }
+      }
+    },
+    "never_completed": {
+      "scenario": "never_completed",
+      "completed": false,
+      "handoffs": {
+        "A": "6fe3658b5aec9c726eaec0a8993903d300da33e846c0fa0aebc978df7d61871f",
+        "B": "9f292b1941bdeae05d7b7ddc23cc42e6c933dd21347f3859504ac1333d5c4831",
+        "C": "9498d50a4e83941050170a3d338a2c724ca94b33aa968c9658ed438113ee349a"
+      },
+      "receipt_copies": {},
+      "proof_via": null,
+      "visits": [
+        [
+          "A",
+          false
+        ],
+        [
+          "B",
+          false
+        ],
+        [
+          "C",
+          false
+        ]
+      ],
+      "seconds": 150.51499999999942,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "never_completed",
+        "entry": 3,
+        "exit_local": {
+          "completed": false,
+          "parts": [
+            0,
+            1
+          ]
+        },
+        "completed": false,
+        "sessions": {
+          "origin_sessions": 2,
+          "recipient_sessions": 1
+        },
+        "receipt_at_origin": null,
+        "route": {
+          "proof_via": null,
+          "missing_before": [
+            "A",
+            "B",
+            "C"
+          ],
+          "visits": 3
+        }
+      }
+    }
+  },
+  "verdict": "v1_return_scoped_pass"
+}

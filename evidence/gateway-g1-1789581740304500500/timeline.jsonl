@@ -1,0 +1,16 @@
+{"event": "start", "time": 1789581740.743001, "node": "D", "generation": 0, "pid": 15816}
+{"event": "start", "time": 1789581741.0654774, "node": "O", "generation": 0, "pid": 28124}
+{"event": "queued_before_crash", "time": 1789581741.0905054, "state": "queued"}
+{"event": "crash", "time": 1789581741.0955136, "node": "O", "exit_code": 23}
+{"event": "start", "time": 1789581741.4299111, "node": "O", "generation": 1, "pid": 22080}
+{"event": "handoff_unconfirmed", "time": 1789581744.4937258, "state": "handed_off"}
+{"event": "crash", "time": 1789581744.4987314, "node": "D", "exit_code": 23}
+{"event": "start", "time": 1789581744.833145, "node": "D", "generation": 1, "pid": 4064}
+{"event": "start", "time": 1789581745.170151, "node": "X", "generation": 0, "pid": 30984}
+{"event": "wrong_signer_rejected", "time": 1789581748.1825733}
+{"event": "crash", "time": 1789581748.1880844, "node": "X", "exit_code": 23}
+{"event": "duplicate_after_crash", "time": 1789581761.4866855, "fresh": false, "rows": [{"id": "1cbdd3a5a0c44b7ab39eb5e8094ba685", "kind": "data", "direction": "in", "destination": "8cb42bedb73b5bd49b0cda6bca7e04f4", "digest": "51de12ad61a77598d6baab4d3b4f0ce623fa987ed2d8a3cae2e11d3a29eb0778", "state": "received", "attempts": 0}, {"id": "1cbdd3a5a0c44b7ab39eb5e8094ba685", "kind": "receipt", "direction": "out", "destination": "6f4a13aded54246fca87ca96451da630", "digest": "51de12ad61a77598d6baab4d3b4f0ce623fa987ed2d8a3cae2e11d3a29eb0778", "state": "queued", "attempts": 0}]}
+{"event": "corrupt_manifest_rejected", "time": 1789581765.4790916}
+{"event": "crash", "time": 1789581765.4851065, "node": "O", "exit_code": 23}
+{"event": "start", "time": 1789581765.82928, "node": "O", "generation": 2, "pid": 31560}
+{"event": "final", "time": 1789581771.1015892, "source": [{"id": "1cbdd3a5a0c44b7ab39eb5e8094ba685", "kind": "data", "direction": "out", "destination": "8cb42bedb73b5bd49b0cda6bca7e04f4", "digest": "51de12ad61a77598d6baab4d3b4f0ce623fa987ed2d8a3cae2e11d3a29eb0778", "state": "confirmed", "attempts": 2}, {"id": "00ed371142ba4eca8da0c4f629887ce7", "kind": "data", "direction": "out", "destination": "9d0e61e61994c1c905d7abcb4d05a45c", "digest": "5ad38304b535c2987dbd24657c1a11b884984ff600d9f389deb0d4e634fee792", "state": "expired", "attempts": 0}], "destination": [{"id": "1cbdd3a5a0c44b7ab39eb5e8094ba685", "kind": "data", "direction": "in", "destination": "8cb42bedb73b5bd49b0cda6bca7e04f4", "digest": "51de12ad61a77598d6baab4d3b4f0ce623fa987ed2d8a3cae2e11d3a29eb0778", "state": "received", "attempts": 0}, {"id": "1cbdd3a5a0c44b7ab39eb5e8094ba685", "kind": "receipt", "direction": "out", "destination": "6f4a13aded54246fca87ca96451da630", "digest": "51de12ad61a77598d6baab4d3b4f0ce623fa987ed2d8a3cae2e11d3a29eb0778", "state": "handed_off", "attempts": 1}]}

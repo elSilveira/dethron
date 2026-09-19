@@ -1,0 +1,617 @@
+{
+  "cases": [
+    {
+      "repeat": 0,
+      "scenario": "all",
+      "mode": "whole",
+      "contacts": [
+        "C",
+        "A",
+        "B"
+      ],
+      "limit_kb": 256,
+      "completed": true,
+      "contact_seconds": 10.796999999991385,
+      "encode_seconds": 0.002737000002525747,
+      "submitted_lxmf_bytes": 197829,
+      "tx_distribution": 205109,
+      "tx_contacts": 206671,
+      "tx_total_sampled": 411780,
+      "file_bytes_peak_sampled": 255660,
+      "file_samples": [
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67142,
+          "D": 481,
+          "O.offline": 2807
+        },
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 1078,
+          "D": 116481,
+          "O.offline": 2807
+        },
+        {
+          "A": 1078,
+          "B": 67142,
+          "C": 1302,
+          "D": 182826,
+          "O.offline": 2807
+        },
+        {
+          "A": 1302,
+          "B": 1078,
+          "C": 1302,
+          "D": 249171,
+          "O.offline": 2807
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 3
+      }
+    },
+    {
+      "repeat": 0,
+      "scenario": "all",
+      "mode": "split",
+      "contacts": [
+        "C",
+        "A",
+        "B"
+      ],
+      "limit_kb": 256,
+      "completed": true,
+      "contact_seconds": 10.781000000002678,
+      "encode_seconds": 0.0017176999972434714,
+      "submitted_lxmf_bytes": 90351,
+      "tx_distribution": 96531,
+      "tx_contacts": 97739,
+      "tx_total_sampled": 194270,
+      "file_bytes_peak_sampled": 365499,
+      "file_samples": [
+        {
+          "A": 31318,
+          "B": 31318,
+          "C": 31318,
+          "D": 25057,
+          "O.offline": 3036
+        },
+        {
+          "A": 31318,
+          "B": 31318,
+          "C": 1078,
+          "D": 100740,
+          "O.offline": 3036
+        },
+        {
+          "A": 1078,
+          "B": 31318,
+          "C": 1302,
+          "D": 176315,
+          "O.offline": 3036
+        },
+        {
+          "A": 1302,
+          "B": 1078,
+          "C": 1302,
+          "D": 358781,
+          "O.offline": 3036
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 3
+      }
+    },
+    {
+      "repeat": 0,
+      "scenario": "all",
+      "mode": "xor2",
+      "contacts": [
+        "C",
+        "A",
+        "B"
+      ],
+      "limit_kb": 256,
+      "completed": true,
+      "contact_seconds": 10.75,
+      "encode_seconds": 0.004438400006620213,
+      "submitted_lxmf_bytes": 134019,
+      "tx_distribution": 140266,
+      "tx_contacts": 141805,
+      "tx_total_sampled": 282071,
+      "file_bytes_peak_sampled": 474469,
+      "file_samples": [
+        {
+          "A": 45877,
+          "B": 45877,
+          "C": 45877,
+          "D": 25056,
+          "O.offline": 2806
+        },
+        {
+          "A": 45877,
+          "B": 45877,
+          "C": 1077,
+          "D": 135775,
+          "O.offline": 2806
+        },
+        {
+          "A": 1077,
+          "B": 45877,
+          "C": 1301,
+          "D": 353277,
+          "O.offline": 2806
+        },
+        {
+          "A": 1301,
+          "B": 1077,
+          "C": 1301,
+          "D": 467984,
+          "O.offline": 2806
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 3
+      }
+    },
+    {
+      "repeat": 0,
+      "scenario": "loss",
+      "mode": "whole",
+      "contacts": [
+        "C",
+        "A"
+      ],
+      "limit_kb": 64,
+      "completed": false,
+      "contact_seconds": 7.171999999991385,
+      "encode_seconds": 0.0030704999953741208,
+      "submitted_lxmf_bytes": 197829,
+      "tx_distribution": 205091,
+      "tx_contacts": 2880,
+      "tx_total_sampled": 207971,
+      "file_bytes_peak_sampled": 205503,
+      "file_samples": [
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67142,
+          "D": 481,
+          "O.offline": 2807
+        },
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67142,
+          "D": 817,
+          "O.offline": 2807
+        },
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67366,
+          "D": 1046,
+          "O.offline": 2807
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": false,
+        "contacts_audited": 2
+      }
+    },
+    {
+      "repeat": 0,
+      "scenario": "loss",
+      "mode": "split",
+      "contacts": [
+        "C",
+        "A"
+      ],
+      "limit_kb": 64,
+      "completed": false,
+      "contact_seconds": 7.1560000000026776,
+      "encode_seconds": 0.002035400000750087,
+      "submitted_lxmf_bytes": 90351,
+      "tx_distribution": 96515,
+      "tx_contacts": 65161,
+      "tx_total_sampled": 161676,
+      "file_bytes_peak_sampled": 213049,
+      "file_samples": [
+        {
+          "A": 31318,
+          "B": 31318,
+          "C": 31318,
+          "D": 25057,
+          "O.offline": 3036
+        },
+        {
+          "A": 31318,
+          "B": 31318,
+          "C": 1078,
+          "D": 100740,
+          "O.offline": 3036
+        },
+        {
+          "A": 1078,
+          "B": 31318,
+          "C": 1302,
+          "D": 176315,
+          "O.offline": 3036
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": false,
+        "contacts_audited": 2
+      }
+    },
+    {
+      "repeat": 0,
+      "scenario": "loss",
+      "mode": "xor2",
+      "contacts": [
+        "C",
+        "A"
+      ],
+      "limit_kb": 64,
+      "completed": true,
+      "contact_seconds": 7.172000000005937,
+      "encode_seconds": 0.0038172999920789152,
+      "submitted_lxmf_bytes": 134019,
+      "tx_distribution": 140588,
+      "tx_contacts": 94525,
+      "tx_total_sampled": 235113,
+      "file_bytes_peak_sampled": 404567,
+      "file_samples": [
+        {
+          "A": 45877,
+          "B": 45877,
+          "C": 45877,
+          "D": 25056,
+          "O.offline": 3035
+        },
+        {
+          "A": 45877,
+          "B": 45877,
+          "C": 1077,
+          "D": 135775,
+          "O.offline": 3035
+        },
+        {
+          "A": 1077,
+          "B": 45877,
+          "C": 1301,
+          "D": 353277,
+          "O.offline": 3035
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 2
+      }
+    },
+    {
+      "repeat": 1,
+      "scenario": "all",
+      "mode": "xor2",
+      "contacts": [
+        "B",
+        "A",
+        "C"
+      ],
+      "limit_kb": 256,
+      "completed": true,
+      "contact_seconds": 10.765999999988708,
+      "encode_seconds": 0.003918500005966052,
+      "submitted_lxmf_bytes": 134019,
+      "tx_distribution": 140680,
+      "tx_contacts": 141791,
+      "tx_total_sampled": 282471,
+      "file_bytes_peak_sampled": 474698,
+      "file_samples": [
+        {
+          "A": 45877,
+          "B": 45877,
+          "C": 45877,
+          "D": 25056,
+          "O.offline": 3035
+        },
+        {
+          "A": 45877,
+          "B": 1077,
+          "C": 45877,
+          "D": 135775,
+          "O.offline": 3035
+        },
+        {
+          "A": 1077,
+          "B": 1301,
+          "C": 45877,
+          "D": 353277,
+          "O.offline": 3035
+        },
+        {
+          "A": 1301,
+          "B": 1301,
+          "C": 1077,
+          "D": 467984,
+          "O.offline": 3035
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 3
+      }
+    },
+    {
+      "repeat": 1,
+      "scenario": "all",
+      "mode": "split",
+      "contacts": [
+        "B",
+        "A",
+        "C"
+      ],
+      "limit_kb": 256,
+      "completed": true,
+      "contact_seconds": 10.718999999997322,
+      "encode_seconds": 0.0017185000033350661,
+      "submitted_lxmf_bytes": 90351,
+      "tx_distribution": 96183,
+      "tx_contacts": 97705,
+      "tx_total_sampled": 193888,
+      "file_bytes_peak_sampled": 365270,
+      "file_samples": [
+        {
+          "A": 31318,
+          "B": 31318,
+          "C": 31318,
+          "D": 25057,
+          "O.offline": 2807
+        },
+        {
+          "A": 31318,
+          "B": 1078,
+          "C": 31318,
+          "D": 100740,
+          "O.offline": 2807
+        },
+        {
+          "A": 1078,
+          "B": 1302,
+          "C": 31318,
+          "D": 176315,
+          "O.offline": 2807
+        },
+        {
+          "A": 1302,
+          "B": 1302,
+          "C": 1078,
+          "D": 358781,
+          "O.offline": 2807
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 3
+      }
+    },
+    {
+      "repeat": 1,
+      "scenario": "all",
+      "mode": "whole",
+      "contacts": [
+        "B",
+        "A",
+        "C"
+      ],
+      "limit_kb": 256,
+      "completed": true,
+      "contact_seconds": 10.76600000000326,
+      "encode_seconds": 0.0028258000093046576,
+      "submitted_lxmf_bytes": 197829,
+      "tx_distribution": 205156,
+      "tx_contacts": 206698,
+      "tx_total_sampled": 411854,
+      "file_bytes_peak_sampled": 255660,
+      "file_samples": [
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67142,
+          "D": 481,
+          "O.offline": 2807
+        },
+        {
+          "A": 67142,
+          "B": 1078,
+          "C": 67142,
+          "D": 116481,
+          "O.offline": 2807
+        },
+        {
+          "A": 1078,
+          "B": 1302,
+          "C": 67142,
+          "D": 182826,
+          "O.offline": 2807
+        },
+        {
+          "A": 1302,
+          "B": 1302,
+          "C": 1078,
+          "D": 249171,
+          "O.offline": 2807
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 3
+      }
+    },
+    {
+      "repeat": 1,
+      "scenario": "loss",
+      "mode": "xor2",
+      "contacts": [
+        "B",
+        "C"
+      ],
+      "limit_kb": 64,
+      "completed": true,
+      "contact_seconds": 7.172000000005937,
+      "encode_seconds": 0.003855399991152808,
+      "submitted_lxmf_bytes": 134019,
+      "tx_distribution": 140676,
+      "tx_contacts": 94557,
+      "tx_total_sampled": 235233,
+      "file_bytes_peak_sampled": 404567,
+      "file_samples": [
+        {
+          "A": 45877,
+          "B": 45877,
+          "C": 45877,
+          "D": 25056,
+          "O.offline": 3035
+        },
+        {
+          "A": 45877,
+          "B": 1077,
+          "C": 45877,
+          "D": 135775,
+          "O.offline": 3035
+        },
+        {
+          "A": 45877,
+          "B": 1301,
+          "C": 1077,
+          "D": 353277,
+          "O.offline": 3035
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": true,
+        "contacts_audited": 2
+      }
+    },
+    {
+      "repeat": 1,
+      "scenario": "loss",
+      "mode": "split",
+      "contacts": [
+        "B",
+        "C"
+      ],
+      "limit_kb": 64,
+      "completed": false,
+      "contact_seconds": 7.156999999991967,
+      "encode_seconds": 0.0016606999997748062,
+      "submitted_lxmf_bytes": 90351,
+      "tx_distribution": 96163,
+      "tx_contacts": 65147,
+      "tx_total_sampled": 161310,
+      "file_bytes_peak_sampled": 212820,
+      "file_samples": [
+        {
+          "A": 31318,
+          "B": 31318,
+          "C": 31318,
+          "D": 25057,
+          "O.offline": 2807
+        },
+        {
+          "A": 31318,
+          "B": 1078,
+          "C": 31318,
+          "D": 100740,
+          "O.offline": 2807
+        },
+        {
+          "A": 31318,
+          "B": 1302,
+          "C": 1078,
+          "D": 176315,
+          "O.offline": 2807
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": false,
+        "contacts_audited": 2
+      }
+    },
+    {
+      "repeat": 1,
+      "scenario": "loss",
+      "mode": "whole",
+      "contacts": [
+        "B",
+        "C"
+      ],
+      "limit_kb": 64,
+      "completed": false,
+      "contact_seconds": 7.109000000011292,
+      "encode_seconds": 0.0023169000050984323,
+      "submitted_lxmf_bytes": 197829,
+      "tx_distribution": 205146,
+      "tx_contacts": 2877,
+      "tx_total_sampled": 208023,
+      "file_bytes_peak_sampled": 205503,
+      "file_samples": [
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67142,
+          "D": 481,
+          "O.offline": 2807
+        },
+        {
+          "A": 67142,
+          "B": 67142,
+          "C": 67142,
+          "D": 817,
+          "O.offline": 2807
+        },
+        {
+          "A": 67142,
+          "B": 67366,
+          "C": 67142,
+          "D": 1046,
+          "O.offline": 2807
+        }
+      ],
+      "eligible": true,
+      "audit": {
+        "passed": true,
+        "completed": false,
+        "contacts_audited": 2
+      }
+    }
+  ],
+  "verdict": "g2_scoped_pass"
+}

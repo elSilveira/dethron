@@ -1,0 +1,22 @@
+{
+  "g3_access.py": "4b3df4b717d6133f37c7cbf6aef3a6c25a20a4950ed181c233af8b51b43f22f6",
+  "g3_audit.py": "61feee500b4de3fdd0fc1b04f93d126a15acdff97b571ccb1b97973907303f56",
+  "g3_contract.py": "968e2b17c280acc2596b5dee339fcb716961856af64872747f60a6fb86bb433c",
+  "g3_lab.py": "fe0b74b6f1cbaccb81be20e3acd6b888955d5a6f3e46ecd4ce16fa8497969ea5",
+  "g3_node.py": "5c56a3846cd5085f847267ecd9d24a0d4590c99d3b30a5b924b316f87de3c8b0",
+  "g3_process.py": "96a70d11392e4c7da613a0eacc80acdc06ae60a8c94b9691ef6fe45362d67d18",
+  "g3_supervisor.py": "08d56c6ebf2ab243545759a786ab9c6143dee6a2ecc92de896e0fdfe0123a9d5",
+  "dethron_gateway\\adapter.py": "51e46c45f6a69b3a4b224989a29cb0f07e9ca3a30159a1aae46045461bee70e4",
+  "dethron_gateway\\assembly.py": "540f4991ec04b22b336096d862a5398dbe0beab798b2ac5f3a54e32376eb8fe6",
+  "dethron_gateway\\database.py": "326b0cb9d72d1b20597e283b68faf044898423075d8a3692bf1c70fcd8529331",
+  "dethron_gateway\\erasure.py": "5b851e2621708c813d0de177ef00d927a3230c2ea61c72635df101780c5c205b",
+  "dethron_gateway\\mailbox.py": "01539f70be7cad3c7602b7a5a840d7f719ad365d90b0c0ebde957e8883b7e424",
+  "dethron_gateway\\parts.py": "80b873853aede1c88fa9f403d2fd1683f267aa1bc1e326235804b7f9a0abc805",
+  "dethron_gateway\\protocol.py": "5c1548f9d95948b6a87bbe00a9d23c56813377e2e6ad56e7526735e04262c0ba",
+  "dethron_gateway\\wire.py": "fc3e807ded16e83d57bb82d7c8a39f5ad19f779468466d6dccc3667c357b494d",
+  "dethron_gateway\\__init__.py": "4d916b91ce0ccb42c5945ec602bb683f65cfe6a060326afbc9385eb79bfac116",
+  "run_g3_probe.py": "7111cea0680cb286204399b4008aebab290a36843a49c52765f81d3b17c5b2c1",
+  "gateway_contract.py": "e3be16da5ab42b4b467e5a880bef2cf3a4d3c8b00a5ae06a25ecea28e727ebec",
+  "gateway_scenario.py": "04bd51748896edf71f457e6b7e4ae89c0b702b2c56a58f284716f23c2428001f",
+  "g2_receiver.py": "38b8a7a66d8bbac7035ea2e5781fd67b8d0055b7bf190d5d2b45e48dc13106c6"
+}

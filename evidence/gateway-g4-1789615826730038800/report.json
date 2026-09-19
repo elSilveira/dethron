@@ -1,0 +1,406 @@
+{
+  "scenarios": {
+    "ip": {
+      "scenario": "ip",
+      "completed": true,
+      "attempts": [
+        {
+          "event": "fetch_attempt",
+          "time": 1789615842.8759687,
+          "scenario": "ip",
+          "supervisor_pid": 28480,
+          "sync": 7,
+          "receiver": {
+            "completed": true,
+            "sha256": "c668c449a8b53c3c3c5173237f6afcc115902eb51a3f8cbd1e8ea0f70949c4ef",
+            "objects": [
+              {
+                "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "count": 1,
+                "complete": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      ],
+      "relay_stored": 0,
+      "ledger": {},
+      "ip_endpoints": [
+        {
+          "proto": "TCP",
+          "local": "127.0.0.1:52024",
+          "remote": "0.0.0.0:0",
+          "pid": 31508
+        },
+        {
+          "proto": "TCP",
+          "local": "127.0.0.1:52024",
+          "remote": "127.0.0.1:52267",
+          "pid": 31508
+        },
+        {
+          "proto": "TCP",
+          "local": "127.0.0.1:52267",
+          "remote": "127.0.0.1:52024",
+          "pid": 25388
+        }
+      ],
+      "audited_pids": {
+        "nodes": {
+          "A": 31508,
+          "D": 25388
+        },
+        "bridges": []
+      },
+      "seconds": 16.812000000005355,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "ip",
+        "paths": {
+          "nodes": [
+            "A",
+            "O",
+            "D"
+          ],
+          "isolated": []
+        },
+        "sockets": {
+          "inspected": 2,
+          "endpoints": 3
+        },
+        "medium": {
+          "bridges": 0,
+          "cuts": 0,
+          "restores": 0
+        },
+        "completed": true,
+        "size": 16384,
+        "sha256": "c668c449a8b53c3c3c5173237f6afcc115902eb51a3f8cbd1e8ea0f70949c4ef"
+      }
+    },
+    "bridged": {
+      "scenario": "bridged",
+      "completed": true,
+      "attempts": [
+        {
+          "event": "fetch_attempt",
+          "time": 1789615861.77099,
+          "scenario": "bridged",
+          "supervisor_pid": 28480,
+          "sync": 7,
+          "receiver": {
+            "completed": true,
+            "sha256": "ba32bbacaf49ceecb301a2bd0dc60056deaf465d7bf0b62ff327cef84d88becc",
+            "objects": [
+              {
+                "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "count": 1,
+                "complete": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      ],
+      "relay_stored": 0,
+      "ledger": {
+        "dr-a": {
+          "side": "a",
+          "pid": 25592,
+          "sent": 32867,
+          "received": 2232,
+          "cut_losses": 0,
+          "started": 1789615844.0550013
+        },
+        "dr-b": {
+          "side": "b",
+          "pid": 11848,
+          "sent": 2232,
+          "received": 32867,
+          "cut_losses": 0,
+          "started": 1789615857.9529583
+        },
+        "or-a": {
+          "side": "a",
+          "pid": 15556,
+          "sent": 1664,
+          "received": 32414,
+          "cut_losses": 0,
+          "started": 1789615844.0344217
+        },
+        "or-b": {
+          "side": "b",
+          "pid": 32812,
+          "sent": 32414,
+          "received": 1664,
+          "cut_losses": 0,
+          "started": 1789615844.5052235
+        }
+      },
+      "ip_endpoints": [],
+      "audited_pids": {
+        "nodes": {
+          "A": 27944,
+          "D": 5896
+        },
+        "bridges": [
+          25592,
+          11848,
+          15556,
+          32812
+        ]
+      },
+      "seconds": 19.813000000009197,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "bridged",
+        "paths": {
+          "nodes": [
+            "A",
+            "O",
+            "D"
+          ],
+          "isolated": [
+            "A",
+            "O",
+            "D"
+          ]
+        },
+        "sockets": {
+          "inspected": 6,
+          "endpoints": 0
+        },
+        "medium": {
+          "bridges": 4,
+          "cuts": 0,
+          "restores": 0,
+          "received_bytes": 32867,
+          "cut_losses": 0
+        },
+        "completed": true,
+        "size": 16384,
+        "sha256": "ba32bbacaf49ceecb301a2bd0dc60056deaf465d7bf0b62ff327cef84d88becc"
+      }
+    },
+    "dark": {
+      "scenario": "dark",
+      "completed": false,
+      "attempts": [
+        {
+          "event": "fetch_attempt",
+          "time": 1789615925.2800298,
+          "scenario": "dark",
+          "supervisor_pid": 28480,
+          "sync": 240,
+          "receiver": {
+            "completed": false,
+            "sha256": null,
+            "objects": []
+          },
+          "completed": false
+        }
+      ],
+      "relay_stored": 1,
+      "ledger": {
+        "dr-a": {
+          "side": "a",
+          "pid": 28544,
+          "sent": 0,
+          "received": 0,
+          "cut_losses": 573,
+          "started": 1789615863.9087648
+        },
+        "dr-b": {
+          "side": "b",
+          "pid": 31896,
+          "sent": 0,
+          "received": 0,
+          "cut_losses": 53,
+          "started": 1789615877.7803128
+        },
+        "or-a": {
+          "side": "a",
+          "pid": 33024,
+          "sent": 2340,
+          "received": 32391,
+          "cut_losses": 0,
+          "started": 1789615863.8932383
+        },
+        "or-b": {
+          "side": "b",
+          "pid": 17816,
+          "sent": 32391,
+          "received": 1666,
+          "cut_losses": 0,
+          "started": 1789615864.3560908
+        }
+      },
+      "ip_endpoints": [],
+      "audited_pids": {
+        "nodes": {
+          "A": 28936,
+          "D": 28528
+        },
+        "bridges": [
+          28544,
+          31896,
+          33024,
+          17816
+        ]
+      },
+      "seconds": 63.437999999994645,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "dark",
+        "paths": {
+          "nodes": [
+            "A",
+            "O",
+            "D"
+          ],
+          "isolated": [
+            "A",
+            "O",
+            "D"
+          ]
+        },
+        "sockets": {
+          "inspected": 6,
+          "endpoints": 0
+        },
+        "medium": {
+          "bridges": 4,
+          "cuts": 1,
+          "restores": 0,
+          "received_bytes": 0,
+          "cut_losses": 53
+        },
+        "completed": false,
+        "pending_at_relay": 1
+      }
+    },
+    "cut": {
+      "scenario": "cut",
+      "completed": true,
+      "attempts": [
+        {
+          "event": "fetch_attempt",
+          "time": 1789615988.7511258,
+          "scenario": "cut",
+          "supervisor_pid": 28480,
+          "sync": 240,
+          "receiver": {
+            "completed": false,
+            "sha256": null,
+            "objects": []
+          },
+          "completed": false
+        },
+        {
+          "event": "fetch_attempt",
+          "time": 1789615991.8387764,
+          "scenario": "cut",
+          "supervisor_pid": 28480,
+          "sync": 7,
+          "receiver": {
+            "completed": true,
+            "sha256": "dba3e2484f001341cb924a41676bc5e530cd056b66836d7c53f0750f2305fda3",
+            "objects": [
+              {
+                "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "count": 1,
+                "complete": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      ],
+      "relay_stored": 0,
+      "ledger": {
+        "dr-a": {
+          "side": "a",
+          "pid": 12776,
+          "sent": 32703,
+          "received": 2202,
+          "cut_losses": 564,
+          "started": 1789615927.383002
+        },
+        "dr-b": {
+          "side": "b",
+          "pid": 25748,
+          "sent": 2202,
+          "received": 32703,
+          "cut_losses": 53,
+          "started": 1789615941.304368
+        },
+        "or-a": {
+          "side": "a",
+          "pid": 27180,
+          "sent": 2327,
+          "received": 32419,
+          "cut_losses": 0,
+          "started": 1789615927.360949
+        },
+        "or-b": {
+          "side": "b",
+          "pid": 3520,
+          "sent": 32419,
+          "received": 1661,
+          "cut_losses": 0,
+          "started": 1789615927.8733468
+        }
+      },
+      "ip_endpoints": [],
+      "audited_pids": {
+        "nodes": {
+          "A": 18612,
+          "D": 8152
+        },
+        "bridges": [
+          12776,
+          25748,
+          27180,
+          3520
+        ]
+      },
+      "seconds": 66.53100000000268,
+      "swept": [],
+      "audit": {
+        "passed": true,
+        "scenario": "cut",
+        "paths": {
+          "nodes": [
+            "A",
+            "O",
+            "D"
+          ],
+          "isolated": [
+            "A",
+            "O",
+            "D"
+          ]
+        },
+        "sockets": {
+          "inspected": 6,
+          "endpoints": 0
+        },
+        "medium": {
+          "bridges": 4,
+          "cuts": 1,
+          "restores": 1,
+          "received_bytes": 32703,
+          "cut_losses": 53
+        },
+        "completed": true,
+        "size": 16384,
+        "sha256": "dba3e2484f001341cb924a41676bc5e530cd056b66836d7c53f0750f2305fda3"
+      }
+    }
+  },
+  "verdict": "g4_scoped_pass"
+}

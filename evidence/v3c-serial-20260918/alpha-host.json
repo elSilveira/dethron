@@ -1,0 +1,14 @@
+{
+  "hostname": "elSilveira",
+  "node": "elSilveira",
+  "system": "Windows-10-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+  "addresses": [
+    "172.28.208.1",
+    "172.29.160.1",
+    "192.168.68.62",
+    "fe80::4152:c054:4d0e:2896",
+    "fe80::9902:904f:4872:16c9",
+    "fe80::e978:c0a4:db8e:bd1a"
+  ]
+}

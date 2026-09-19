@@ -1,0 +1,133 @@
+{
+  "whole": {
+    "completed": false,
+    "contact_seconds": 10.81300000000192,
+    "snapshots": [
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": []
+      },
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": []
+      },
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": []
+      }
+    ],
+    "relay_store_bytes": 394800,
+    "submitted_lxmf_bytes": 394437,
+    "interface_tx_bytes_constrained": 407938,
+    "constrained_completed": false,
+    "relaxed_completed": true,
+    "audit": {
+      "audit": "passed",
+      "unique_parts": 0,
+      "completed": true,
+      "sha256": "7ec535c0ec59a326f43973ae7b936062b3402d6883dcd63c0b51fd95fbdf813b",
+      "receipt": "signed locally, not returned to offline origin"
+    }
+  },
+  "split": {
+    "completed": true,
+    "contact_seconds": 10.859000000004016,
+    "snapshots": [
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": [
+          {
+            "id": "ffffffffffffffffffffffffffffffff",
+            "count": 1,
+            "complete": false
+          }
+        ]
+      },
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": [
+          {
+            "id": "ffffffffffffffffffffffffffffffff",
+            "count": 2,
+            "complete": false
+          }
+        ]
+      },
+      {
+        "completed": true,
+        "sha256": "7ec535c0ec59a326f43973ae7b936062b3402d6883dcd63c0b51fd95fbdf813b",
+        "objects": [
+          {
+            "id": "ffffffffffffffffffffffffffffffff",
+            "count": 3,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "relay_store_bytes": 178080,
+    "submitted_lxmf_bytes": 177723,
+    "interface_tx_bytes_constrained": 370246,
+    "audit": {
+      "audit": "passed",
+      "unique_parts": 3,
+      "completed": true,
+      "sha256": "7ec535c0ec59a326f43973ae7b936062b3402d6883dcd63c0b51fd95fbdf813b",
+      "receipt": "signed locally, not returned to offline origin"
+    }
+  },
+  "missing": {
+    "completed": false,
+    "contact_seconds": 10.828000000001339,
+    "snapshots": [
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": [
+          {
+            "id": "ffffffffffffffffffffffffffffffff",
+            "count": 1,
+            "complete": false
+          }
+        ]
+      },
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": [
+          {
+            "id": "ffffffffffffffffffffffffffffffff",
+            "count": 2,
+            "complete": false
+          }
+        ]
+      },
+      {
+        "completed": false,
+        "sha256": null,
+        "objects": [
+          {
+            "id": "ffffffffffffffffffffffffffffffff",
+            "count": 2,
+            "complete": false
+          }
+        ]
+      }
+    ],
+    "relay_store_bytes": 178080,
+    "submitted_lxmf_bytes": 177723,
+    "interface_tx_bytes_constrained": 370667,
+    "audit": {
+      "audit": "passed",
+      "unique_parts": 2,
+      "completed": false
+    }
+  },
+  "verdict": "meets_g2_scoped_contract",
+  "interpretation": "exact-part composition works under this native fetch cap; no general performance or novelty claim"
+}

@@ -1,0 +1,282 @@
+{
+  "complete": {
+    "phases": [
+      {
+        "phase": "seed",
+        "mode": "complete",
+        "supervisor_pid": 11868,
+        "guard": true,
+        "origin_retired": true,
+        "object": {
+          "id": "ffffffffffffffffffffffffffffffff",
+          "size": 24576,
+          "digest": "ada077a478903115055d93de132441ac15051b603ec36ca9a66cb74b2572dc17"
+        },
+        "relays": {
+          "A": "a0bcc6aabb1092cf275acd3bc70a1cba",
+          "B": "647ab7f73cc7c02b4992550b3600254b",
+          "C": "377c7a13dc40a56fb83863bb20570b64"
+        }
+      },
+      {
+        "phase": "1",
+        "mode": "complete",
+        "supervisor_pid": 28084,
+        "guard": true,
+        "generation": 1,
+        "retired": [
+          "A0",
+          "B0",
+          "C0"
+        ],
+        "relays": {
+          "A": "05d33693f65771b782128eb226b2a84e",
+          "B": "ac0fb069f8433f19b1484e93494ce213",
+          "C": "f7aa82a8ba1a938fe8d2c73968139ec4"
+        }
+      },
+      {
+        "phase": "2",
+        "mode": "complete",
+        "supervisor_pid": 23072,
+        "guard": true,
+        "generation": 2,
+        "retired": [
+          "A1",
+          "B1",
+          "C1"
+        ],
+        "relays": {
+          "A": "8e40559574c77af5691c93baaa70287d",
+          "B": "a77a12416bbc0718f7b4c4bec7a5b3c3",
+          "C": "2dcb07ee6b7e5201b8a6484a807bac04"
+        }
+      },
+      {
+        "phase": "deliver",
+        "mode": "complete",
+        "supervisor_pid": 23984,
+        "guard": true,
+        "completed": true,
+        "refused": false,
+        "sha256": "ada077a478903115055d93de132441ac15051b603ec36ca9a66cb74b2572dc17",
+        "contacts": [
+          {
+            "completed": false,
+            "sha256": null,
+            "objects": [
+              {
+                "id": "ffffffffffffffffffffffffffffffff",
+                "count": 1,
+                "complete": false
+              }
+            ]
+          },
+          {
+            "completed": false,
+            "sha256": null,
+            "objects": [
+              {
+                "id": "ffffffffffffffffffffffffffffffff",
+                "count": 2,
+                "complete": false
+              }
+            ]
+          },
+          {
+            "completed": true,
+            "sha256": "ada077a478903115055d93de132441ac15051b603ec36ca9a66cb74b2572dc17",
+            "objects": [
+              {
+                "id": "ffffffffffffffffffffffffffffffff",
+                "count": 3,
+                "complete": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seconds": 229.93700000000536,
+    "swept": [],
+    "audit": {
+      "passed": true,
+      "mode": "complete",
+      "supervisors": {
+        "seed": 11868,
+        "generation-1": 28084,
+        "generation-2": 23072,
+        "deliver": 23984
+      },
+      "carriers": {
+        "generations": {
+          "A": [
+            "a0bcc6aabb1092cf275acd3bc70a1cba",
+            "05d33693f65771b782128eb226b2a84e",
+            "8e40559574c77af5691c93baaa70287d"
+          ],
+          "B": [
+            "647ab7f73cc7c02b4992550b3600254b",
+            "ac0fb069f8433f19b1484e93494ce213",
+            "a77a12416bbc0718f7b4c4bec7a5b3c3"
+          ],
+          "C": [
+            "377c7a13dc40a56fb83863bb20570b64",
+            "f7aa82a8ba1a938fe8d2c73968139ec4",
+            "2dcb07ee6b7e5201b8a6484a807bac04"
+          ]
+        },
+        "handovers": 6,
+        "retired": [
+          "A0",
+          "A1",
+          "B0",
+          "B1",
+          "C0",
+          "C1",
+          "O"
+        ]
+      },
+      "chain": {
+        "checkpoints": 3,
+        "stored_objects": 3,
+        "inventory": [
+          "6ff49384aad39d993642b4f9b812a811c50af575c673ed2641b3b2d48009ab6b",
+          "e81f0553797374856db4e6c37e0d48b8857f97c8abcc4a6571dd5280fc331976",
+          "fa31c4681faba533f7bd052675ea94e9aa616eaaa7e3b0ed72cfbfaaf32a1df5"
+        ]
+      },
+      "completed": true,
+      "size": 24576,
+      "sha256": "ada077a478903115055d93de132441ac15051b603ec36ca9a66cb74b2572dc17",
+      "parts": [
+        0,
+        1,
+        2
+      ]
+    },
+    "completed": true
+  },
+  "missing": {
+    "phases": [
+      {
+        "phase": "seed",
+        "mode": "missing",
+        "supervisor_pid": 27072,
+        "guard": true,
+        "origin_retired": true,
+        "object": {
+          "id": "ffffffffffffffffffffffffffffffff",
+          "size": 24576,
+          "digest": "ada077a478903115055d93de132441ac15051b603ec36ca9a66cb74b2572dc17"
+        },
+        "relays": {
+          "A": "07f02e7133858319a128504e0d7961f1",
+          "B": "c70a9f1a0d1086a572fb3a7d4bbe9fe1",
+          "C": "bcd4fa916b466996f6f9f9a38de68449"
+        }
+      },
+      {
+        "phase": "1",
+        "mode": "missing",
+        "supervisor_pid": 12968,
+        "guard": true,
+        "generation": 1,
+        "retired": [
+          "A0",
+          "B0",
+          "C0"
+        ],
+        "relays": {
+          "A": "ffa0258c6b7e36d62bea0fa9df13b074",
+          "B": "b1c970d73e4ce293bf4ae2fb84878626",
+          "C": "2ef6160ee42369a39c5c00ecdc4a63a1"
+        }
+      },
+      {
+        "phase": "2",
+        "mode": "missing",
+        "supervisor_pid": 27968,
+        "guard": true,
+        "generation": 2,
+        "retired": [
+          "A1",
+          "B1",
+          "C1"
+        ],
+        "relays": {
+          "A": "bbd8a6288286852867b0f46d21d7fb89",
+          "B": "5241036d755c6142d4719f3dd5feba16",
+          "C": "cf5ab576c6576a2583a5dad4e3d14ebb"
+        }
+      },
+      {
+        "phase": "deliver",
+        "mode": "missing",
+        "supervisor_pid": 30996,
+        "guard": true,
+        "completed": false,
+        "refused": true,
+        "reason": "declared credential is absent",
+        "error": "RuntimeError(\"D: {'event': 'refused', 'time': 1789613850.9158719, 'reason': 'declared credential is absent', 'credential': 'C:\\\\\\\\Users\\\\\\\\duzit\\\\\\\\Downloads\\\\\\\\Dethron\\\\\\\\bitnet\\\\\\\\window\\\\\\\\results\\\\\\\\gateway-g3-1789613422588119200\\\\\\\\missing\\\\\\\\credentials\\\\\\\\destination.key'}\")"
+      }
+    ],
+    "seconds": 198.92199999999139,
+    "swept": [],
+    "audit": {
+      "passed": true,
+      "mode": "missing",
+      "supervisors": {
+        "seed": 27072,
+        "generation-1": 12968,
+        "generation-2": 27968,
+        "deliver": 30996
+      },
+      "carriers": {
+        "generations": {
+          "A": [
+            "07f02e7133858319a128504e0d7961f1",
+            "ffa0258c6b7e36d62bea0fa9df13b074",
+            "bbd8a6288286852867b0f46d21d7fb89"
+          ],
+          "B": [
+            "c70a9f1a0d1086a572fb3a7d4bbe9fe1",
+            "b1c970d73e4ce293bf4ae2fb84878626",
+            "5241036d755c6142d4719f3dd5feba16"
+          ],
+          "C": [
+            "bcd4fa916b466996f6f9f9a38de68449",
+            "2ef6160ee42369a39c5c00ecdc4a63a1",
+            "cf5ab576c6576a2583a5dad4e3d14ebb"
+          ]
+        },
+        "handovers": 6,
+        "retired": [
+          "A0",
+          "A1",
+          "B0",
+          "B1",
+          "C0",
+          "C1",
+          "O"
+        ]
+      },
+      "chain": {
+        "checkpoints": 3,
+        "stored_objects": 3,
+        "inventory": [
+          "549cb25804e0b02aa32214290bd78dc0ddfbcfdc43055ad649cb00cc193e398b",
+          "678250d25a5530cc2c0030eb3d996e4737bfc0db75c130884dee7fa8f92b13bc",
+          "fcd619c3b0aa67290b3e672230786ee04a488b8f87771691195d2c1af0f4857a"
+        ]
+      },
+      "completed": false,
+      "refused": true,
+      "reason": "declared credential is absent",
+      "withdrew": "C:\\Users\\duzit\\Downloads\\Dethron\\bitnet\\window\\results\\gateway-g3-1789613422588119200\\missing\\credentials\\destination.key"
+    },
+    "completed": false
+  },
+  "missing_checkpoint_rejected": true,
+  "verdict": "g3_scoped_pass"
+}

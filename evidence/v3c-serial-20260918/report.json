@@ -1,0 +1,79 @@
+{
+  "bench": "C:\\dethron\\v3c2",
+  "commit": "2a386079913685fbe145e711954ec582db38a049 Open a serial link in the order a serial link can be opened",
+  "passed": true,
+  "machines": [
+    {
+      "machine": "alpha",
+      "steps": 8,
+      "control_unchanged": true,
+      "opened_wall": 1789785655.8059278,
+      "late_seconds": 0.001,
+      "max_drift": 0.016
+    },
+    {
+      "machine": "beta",
+      "steps": 6,
+      "control_unchanged": true,
+      "opened_wall": 1789785655.8183732,
+      "late_seconds": 0.014,
+      "max_drift": 0.016
+    }
+  ],
+  "rendezvous": {
+    "skew_seconds": 0.012,
+    "max_late_seconds": 0.014
+  },
+  "delivery": {
+    "completed": true,
+    "size": 16384,
+    "sha256": "9e390712447e77dedddd75386db336f7a07fb8b1cc210eff3fff9c172b15b4e6",
+    "packets": 1
+  },
+  "distinct_machines": {
+    "relay_host": null,
+    "loopback": false,
+    "reported_hosts": {
+      "alpha": {
+        "hostname": "elSilveira",
+        "node": "elSilveira",
+        "system": "Windows-10-10.0.26200-SP0",
+        "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+        "addresses": [
+          "172.28.208.1",
+          "172.29.160.1",
+          "192.168.68.62",
+          "fe80::4152:c054:4d0e:2896",
+          "fe80::9902:904f:4872:16c9",
+          "fe80::e978:c0a4:db8e:bd1a"
+        ]
+      },
+      "beta": {
+        "hostname": "DESKTOP-CURVS8Q",
+        "node": "DESKTOP-CURVS8Q",
+        "system": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+        "addresses": [
+          "192.168.68.50",
+          "fe80::ca89:7be1:b624:7b44"
+        ]
+      }
+    },
+    "evidenced": true,
+    "hostnames": [
+      "DESKTOP-CURVS8Q",
+      "elSilveira"
+    ],
+    "shared_addresses": []
+  },
+  "medium": {
+    "declared": "serial",
+    "interfaces": [
+      "Serial"
+    ],
+    "port": "COM3",
+    "speed": "115200",
+    "carries_ip": false
+  },
+  "verdict": "v3c_scoped_pass"
+}
