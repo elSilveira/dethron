@@ -20,6 +20,12 @@ pieces an outsider can actually use.
   after it expires.
 - `evidence/`, the artifacts the milestone documents cite.
 
+### Verified on
+
+Windows 11 with Python 3.10.11, and Ubuntu 24.04 with Python 3.12.3, against rns 1.5.4 and
+lxmf 1.1.1. The unit suite and the end-to-end delivery test pass on both. The milestone
+evidence in `evidence/` was produced on Windows.
+
 ### Known limits
 
 One message, one relay, one recipient; no key exchange or discovery; the hostile relay is

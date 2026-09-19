@@ -21,7 +21,8 @@ recipient's receipt. That is the point: nothing here asks you to trust an interm
 pip install dethron
 ```
 
-Python 3.10 or newer. Reticulum and LXMF come with it.
+Python 3.10 or newer. Reticulum and LXMF come with it. Exercised on Windows 11 with
+Python 3.10 and on Ubuntu 24.04 with Python 3.12, end-to-end test included.
 
 ## Try it
 
@@ -110,6 +111,8 @@ Not proved, and not claimed:
 - **Key exchange and discovery.** Contacts are exchanged out of band, by you.
 - **A hostile relay in the wild.** The refusals are tested; the adversary is simulated.
 - **Long offline periods.** The sessions in the evidence are disjoint by seconds, not days.
+- **Anything beyond two platforms.** Windows and Linux are exercised; Android, macOS and
+  the BSDs are not. The milestone evidence below was produced on Windows, and says so.
 - Everything the milestone documents list under "Limits", which is where to look first.
 
 ## Contributing
